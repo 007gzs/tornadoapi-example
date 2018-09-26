@@ -37,5 +37,6 @@ class TestHandler(BaseHandler):
 default_handlers = [
 
     (r'doc', ApiDocHandler),
-    (r'test/(?P<testparam>.*?)', TestHandler, {}, '测试'),
+    (r'test', TestHandler, {}, '测试'),
+    (r'test/(?P<test_param>.*?)', TestHandler, {}, '测试url_param'),
 ]
