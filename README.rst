@@ -19,3 +19,4 @@ tornadoapi demo
     http://127.0.0.1:8888/api/test/xxxx?test_choice=0
     http://127.0.0.1:8888/api/test?test_choice=0&test_param=zzzz
     http://127.0.0.1:8888/api/test?test_choice=0&test_param=zzzz&format=json
+    http://127.0.0.1:8888/api/test?test_choice=0&test_param=zzzz&format=jsonp
